@@ -1,7 +1,7 @@
-import express from "express";
-import { Server } from "ws";
-import ffmpeg from "fluent-ffmpeg";
-import dotenv from "dotenv";
+const express = require("express");
+const { Server } = require("ws");
+const ffmpeg = require("fluent-ffmpeg");
+const dotenv = require("dotenv");
 
 dotenv.config();
 
