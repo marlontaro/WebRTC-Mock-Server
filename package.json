@@ -1,0 +1,15 @@
+{
+  "name": "webrtc-mock-server",
+  "version": "1.0.0",
+  "description": "Mock de WebRTC Streaming con FFmpeg y WebSockets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "ws": "^8.11.0"
+  }
+}
